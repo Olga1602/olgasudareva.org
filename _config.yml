@@ -1,5 +1,3 @@
-theme: jekyll-theme-al-folio
-title: Olga Sudareva
-description: Professional Website for Olga Sudareva
-url: https://www.olgasudareva.org
-baseurl: ""
+title: "Olga Sudareva"
+theme: null
+markdown: kramdown
