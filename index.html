@@ -6,51 +6,107 @@
   <title>Olga Sudareva — Home</title>
   <meta name="description" content="Academic homepage of Olga Sudareva: bio, research, teaching, publications, and contact." />
   <link rel="canonical" href="https://olgasudareva.org/" />
+
+  <!-- Social preview -->
   <meta property="og:title" content="Olga Sudareva — Academic Homepage" />
   <meta property="og:description" content="Research, teaching, and publications." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://olgasudareva.org/" />
   <meta property="og:image" content="https://olgasudareva.org/assets/olga_sudareva.jpg" />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
   <style>
-    :root{--bg:#fff;--ink:#0f172a;--muted:#5b616e;--line:#e6e8eb;--link:#0b6bcb;--link-hover:#084f97;--card:#fafbfc;--accent:#0b6bcb15;--maxw:1020px}
-    html{scroll-behavior:smooth}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--ink);background:var(--bg);}
-    .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
-    .skip-link:focus{position:static;width:auto;height:auto;padding:8px;background:#ffd}
-    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px}
-    header{position:sticky;top:0;backdrop-filter:saturate(120%) blur(6px);background-color:rgba(255,255,255,.85);border-bottom:1px solid var(--line);z-index:10}
-    nav{display:flex;align-items:center;gap:18px;justify-content:space-between}
-    .brand{display:flex;align-items:center;gap:12px}
-    .avatar{width:44px;height:44px;border-radius:50%;object-fit:cover;border:1px solid var(--line);background:#ddd}
-    .name{font-weight:700}
-    .navlinks a{color:var(--muted);text-decoration:none;font-weight:600;margin-left:18px}
-    .navlinks a:hover,.navlinks a.active{color:var(--ink)}
-    main{line-height:1.68}
-    h1{font:700 42px/1.2 "Source Serif 4",Georgia,serif;margin:10px 0 2px}
-    h2{font:700 26px/1.3 Inter,system-ui;margin:28px 0 10px}
-    h3{font:600 18px/1.35 Inter;margin:18px 0 8px}
-    p{color:var(--ink)} .muted{color:var(--muted)}
-    .hero {display: grid;grid-template-columns: 280px minmax(0, 1fr);align-items: center;gap: 40px;padding: 48px 0;}
-    .hero .portrait {width: 280px;height: 280px;border-radius: 16px;border: 1px solid var(--line);object-fit: cover;background: #eee;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);}
-    .tags{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
-    .tag{font-size:12px;color:#0f172a;background:var(--accent);border:1px solid var(--line);padding:6px 10px;border-radius:999px}
-    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
-    .btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card);padding:10px 14px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:700}
-    .btn:hover{border-color:#c9ced6}
-    .btn.primary{background:var(--link);color:#fff;border-color:var(--link)}
-    a{color:var(--link)} a:hover{color:var(--link-hover)}
-    .grid-two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
-    ul{padding-left:18px}
-    .news li{margin:6px 0}
-    .pub{margin:8px 0}
-    footer{border-top:1px solid var(--line);margin-top:40px}
-    .foot{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--muted);padding:20px 0}
-    @media (max-width: 900px) {.hero {grid-template-columns: 1fr;text-align: center;gap: 24px;padding: 32px 0;}
+    :root { --bg:#fff; --ink:#0f172a; --muted:#5b616e; --line:#e6e8eb; --link:#0b6bcb; --link-hover:#084f97; --card:#fafbfc; --accent:#0b6bcb15; --maxw:1020px; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; color: var(--ink); background: var(--bg); }
+
+    /* accessibility */
+    .skip-link { position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; }
+    .skip-link:focus { position:static; width:auto; height:auto; padding:8px; background:#ffd; }
+
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 24px; }
+
+    header { position: sticky; top: 0; backdrop-filter: saturate(120%) blur(6px); background-color: rgba(255,255,255,.85); border-bottom: 1px solid var(--line); z-index: 10; }
+    nav { display: flex; align-items: center; gap: 18px; justify-content: space-between; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 1px solid var(--line); background:#ddd; }
+    .name { font-weight: 700; }
+    .navlinks a { color: var(--muted); text-decoration: none; font-weight: 600; margin-left: 18px; }
+    .navlinks a:hover, .navlinks a.active { color: var(--ink); }
+
+    main { line-height: 1.68; }
+    h1 { font: 700 46px/1.2 "Source Serif 4", Georgia, serif; margin: 0 0 10px; }
+    h2 { font: 700 26px/1.3 Inter, system-ui; margin: 28px 0 10px; }
+    h3 { font: 600 18px/1.35 Inter; margin: 18px 0 8px; }
+    p { color: var(--ink); }
+    .muted { color: var(--muted); }
+
+    /* HERO — aligned photo + text block */
+    .hero {
+      display: grid;
+      grid-template-columns: 280px minmax(0,1fr);
+      align-items: center;
+      gap: 40px;
+      padding: 48px 0;
+    }
+    .hero .portrait {
+      width: 280px;
+      height: 280px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      object-fit: cover;
+      background: #eee;
+      box-shadow: 0 4px 12px rgba(0,0,0,.06);
+    }
+    .hero > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 700px; /* keeps lines readable */
+    }
+
+    .tags { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+    .tag { font-size:12px; color:#0f172a; background: var(--accent); border:1px solid var(--line); padding:6px 10px; border-radius:999px; }
+
+    .cta { display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+    .btn { display:inline-flex; align-items:center; gap:8px; border:1px solid var(--line); background: var(--card); padding:10px 14px; border-radius:10px; text-decoration:none; color:var(--ink); font-weight:700; }
+    .btn:hover { border-color:#c9ced6; }
+    .btn.primary { background: var(--link); color:#fff; border-color: var(--link); }
+    a { color: var(--link); }
+    a:hover { color: var(--link-hover); }
+
+    .grid-two { display:grid; grid-template-columns: 1fr 1fr; gap:20px; }
+    .card { background: var(--card); border:1px solid var(--line); border-radius:12px; padding:18px; }
+    ul { padding-left:18px; }
+    .news li { margin:6px 0; }
+    .pub { margin:8px 0; }
+
+    footer { border-top:1px solid var(--line); margin-top:40px; }
+    .foot { display:flex; justify-content:space-between; gap:16px; align-items:center; color:var(--muted); padding:20px 0; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 24px;
+        padding: 32px 0;
+      }
+      .hero .portrait {
+        margin: 0 auto;
+        width: 220px;
+        height: 220px;
+      }
+      .hero > div { align-items: center; }
+      .grid-two { grid-template-columns: 1fr; }
+      .navlinks { display: none; }
+    }
   </style>
+
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -66,6 +122,7 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header role="banner">
     <div class="wrap">
       <nav aria-label="Primary">
