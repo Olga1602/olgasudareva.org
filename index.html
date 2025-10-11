@@ -3,193 +3,165 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Olga Sudareva — Academic Website</title>
-  <meta name="description" content="Academic homepage of Olga Sudareva: research, teaching, publications, and contact." />
+  <title>Olga Sudareva — Home</title>
+  <meta name="description" content="Academic homepage of Olga Sudareva: bio, research, teaching, publications, and contact." />
+  <link rel="canonical" href="https://olgasudareva.org/" />
+  <meta property="og:title" content="Olga Sudareva — Academic Homepage" />
+  <meta property="og:description" content="Research, teaching, and publications." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://olgasudareva.org/" />
+  <meta property="og:image" content="https://olgasudareva.org/assets/portrait.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
-    :root{
-      --bg:#ffffff;
-      --ink:#101214;
-      --muted:#5b616e;
-      --line:#e6e8eb;
-      --link:#0b6bcb;
-      --link-hover:#084f97;
-      --card:#fafbfc;
-      --accent:#0b6bcb15;
-      --maxw:1020px;
-    }
+    :root{--bg:#fff;--ink:#0f172a;--muted:#5b616e;--line:#e6e8eb;--link:#0b6bcb;--link-hover:#084f97;--card:#fafbfc;--accent:#0b6bcb15;--maxw:1020px}
     html{scroll-behavior:smooth}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";color:var(--ink);background:var(--bg);}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--ink);background:var(--bg);}
+    .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip-link:focus{position:static;width:auto;height:auto;padding:8px;background:#ffd}
     .wrap{max-width:var(--maxw);margin:0 auto;padding:24px}
-    header{position:sticky;top:0;backdrop-filter:saturate(120%) blur(6px);background-color:rgba(255,255,255,.8);border-bottom:1px solid var(--line);z-index:10}
+    header{position:sticky;top:0;backdrop-filter:saturate(120%) blur(6px);background-color:rgba(255,255,255,.85);border-bottom:1px solid var(--line);z-index:10}
     nav{display:flex;align-items:center;gap:18px;justify-content:space-between}
     .brand{display:flex;align-items:center;gap:12px}
     .avatar{width:44px;height:44px;border-radius:50%;object-fit:cover;border:1px solid var(--line);background:#ddd}
-    .name{font-weight:600}
-    .navlinks a{color:var(--muted);text-decoration:none;font-weight:500;margin-left:18px}
-    .navlinks a:hover{color:var(--ink)}
-    main{line-height:1.65}
-    h1{font:700 40px/1.2 "Source Serif 4",Georgia,serif;margin:6px 0 6px}
-    h2{font:600 26px/1.25 Inter,system-ui;margin:36px 0 10px;border-top:1px solid var(--line);padding-top:24px}
-    h3{font:600 18px/1.3 Inter;margin:18px 0 6px}
-    p{color:var(--ink)}
-    .muted{color:var(--muted)}
-    .hero{display:grid;grid-template-columns:160px 1fr;gap:24px;padding:32px 0 8px}
-    .hero .portrait{width:160px;height:160px;border-radius:8px;border:1px solid var(--line);object-fit:cover;background:#eee}
-    .tags{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+    .name{font-weight:700}
+    .navlinks a{color:var(--muted);text-decoration:none;font-weight:600;margin-left:18px}
+    .navlinks a:hover,.navlinks a.active{color:var(--ink)}
+    main{line-height:1.68}
+    h1{font:700 42px/1.2 "Source Serif 4",Georgia,serif;margin:10px 0 2px}
+    h2{font:700 26px/1.3 Inter,system-ui;margin:28px 0 10px}
+    h3{font:600 18px/1.35 Inter;margin:18px 0 8px}
+    p{color:var(--ink)} .muted{color:var(--muted)}
+    .hero{display:grid;grid-template-columns:160px 1fr;gap:24px;padding:26px 0}
+    .hero .portrait{width:160px;height:160px;border-radius:10px;border:1px solid var(--line);object-fit:cover;background:#eee}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
     .tag{font-size:12px;color:#0f172a;background:var(--accent);border:1px solid var(--line);padding:6px 10px;border-radius:999px}
     .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
-    .btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card);padding:10px 14px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:600}
+    .btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card);padding:10px 14px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:700}
     .btn:hover{border-color:#c9ced6}
     .btn.primary{background:var(--link);color:#fff;border-color:var(--link)}
     a{color:var(--link)} a:hover{color:var(--link-hover)}
     .grid-two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
     .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
     ul{padding-left:18px}
-    .pub{margin:10px 0}
-    .year{font-weight:600;margin-top:16px}
-    table{width:100%;border-collapse:collapse}
-    th,td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}
+    .news li{margin:6px 0}
+    .pub{margin:8px 0}
     footer{border-top:1px solid var(--line);margin-top:40px}
     .foot{display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--muted);padding:20px 0}
-    @media (max-width:820px){
-      .hero{grid-template-columns:1fr}
-      .grid-two{grid-template-columns:1fr}
-      .navlinks{display:none}
-    }
+    @media (max-width:820px){.hero{grid-template-columns:1fr}.grid-two{grid-template-columns:1fr}.navlinks{display:none}}
   </style>
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Olga Sudareva",
-    "url": "https://olgasudareva.org/",
-    "jobTitle": "Academic / Researcher",
-    "sameAs": ["https://scholar.google.com/", "https://orcid.org/"],
-    "email": "mailto:olga.sudareva@example.org"
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Olga Sudareva",
+    "url":"https://olgasudareva.org/",
+    "jobTitle":"Academic / Researcher",
+    "affiliation":{"@type":"Organization","name":"Your department / university"},
+    "sameAs":["https://scholar.google.com/","https://orcid.org/"],
+    "email":"mailto:olga.sudareva@example.org"
   }
   </script>
 </head>
 <body>
-  <header>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header role="banner">
     <div class="wrap">
-      <nav>
+      <nav aria-label="Primary">
         <div class="brand">
-          <img class="avatar" src="/assets/portrait.jpg" alt="Portrait of Olga Sudareva" />
+          <img class="avatar" src="assets/portrait.jpg" alt="Portrait of Olga Sudareva" />
           <div>
             <div class="name">Olga Sudareva</div>
             <div class="muted">Research · Teaching · Service</div>
           </div>
         </div>
         <div class="navlinks">
-          <a href="#about">About</a>
-          <a href="#research">Research</a>
-          <a href="#teaching">Teaching</a>
-          <a href="#publications">Publications</a>
-          <a href="#contact">Contact</a>
+          <a class="active" href="index.html" aria-current="page">Home</a>
+          <a href="research.html">Research</a>
+          <a href="teaching.html">Teaching</a>
         </div>
       </nav>
     </div>
   </header>
 
-  <main class="wrap">
-
-    <!-- HERO / ABOUT -->
-    <section id="about" class="hero">
-      <img class="portrait" src="/assets/portrait.jpg" alt="Portrait of Olga Sudareva" />
+  <main id="main" class="wrap">
+    <!-- HERO / INTRO -->
+    <section class="hero">
+      <img class="portrait" src="assets/portrait.jpg" alt="Portrait of Olga Sudareva" />
       <div>
         <h1>Olga Sudareva</h1>
-        <p class="muted">Your title here — e.g., Postdoctoral Researcher, Department of X, University of Y (or Independent Researcher).</p>
-        <div class="tags">
-          <div class="tag">Primary field / discipline</div>
-          <div class="tag">Research method</div>
-          <div class="tag">Topic keywords</div>
+        <p class="muted">Your current title — e.g., Postdoctoral Researcher, Department of X, University of Y (or Independent Researcher).</p>
+        <div class="tags" aria-label="Research tags">
+          <span class="tag">Primary field</span>
+          <span class="tag">Method</span>
+          <span class="tag">Topic</span>
         </div>
         <p>
-          Short academic bio (2–4 sentences). Outline your research agenda, methods, and current appointment. Mention selected venues or collaborators if relevant. Keep it concise and accessible.
+          Brief (2–4 sentence) bio summarizing your research agenda, methods, and current focus. Add a sentence with highlights (venues, grants, collaborations) if relevant.
         </p>
-        <div class="cta">
-          <a class="btn primary" href="/Olga_Sudareva_CV.pdf">Download CV</a>
-          <a class="btn" href="#contact">Email</a>
-          <a class="btn" href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
-          <a class="btn" href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a>
+        <div class="cta" role="group" aria-label="Quick links">
+          <a class="btn primary" href="Olga_Sudareva_CV.pdf">Download CV</a>
+          <a class="btn" href="mailto:olga.sudareva@example.org">Email</a>
+          <a class="btn" target="_blank" rel="noopener" href="https://scholar.google.com/">Google Scholar</a>
+          <a class="btn" target="_blank" rel="noopener" href="https://orcid.org/">ORCID</a>
         </div>
       </div>
     </section>
 
-    <!-- RESEARCH OVERVIEW -->
-    <section id="research">
-      <h2>Research</h2>
+    <!-- HIGHLIGHTS -->
+    <section aria-labelledby="highlights">
+      <h2 id="highlights">Highlights</h2>
       <div class="grid-two">
         <div class="card">
-          <h3>Interests</h3>
-          <ul>
-            <li>Interest 1 — one sentence describing the focus.</li>
-            <li>Interest 2 — one sentence describing the focus.</li>
-            <li>Interest 3 — one sentence describing the focus.</li>
+          <h3>Recent News</h3>
+          <ul class="news">
+            <li><strong>2025‑09:</strong> Paper X accepted at <em>Journal Name</em>.</li>
+            <li><strong>2025‑06:</strong> Presented at Conference Y.</li>
+            <li><strong>2025‑03:</strong> New working paper posted: <a href="#">Title</a>.</li>
           </ul>
         </div>
         <div class="card">
-          <h3>Current Projects</h3>
-          <ul>
-            <li><strong>Project A:</strong> Brief description, methods, data, expected contribution. <em>(with Coauthor Name)</em></li>
-            <li><strong>Project B:</strong> Brief description. <em>(under review)</em></li>
-            <li><strong>Project C:</strong> Brief description. <em>(in progress)</em></li>
-          </ul>
+          <h3>Selected Publications</h3>
+          <div class="pub">Sudareva, O. (2025). <strong>Paper Title</strong>. <em>Journal Name</em>. <a href="#">PDF</a> · <a href="#">DOI</a></div>
+          <div class="pub">Sudareva, O.; Coauthor (2024). <strong>Paper Title</strong>. <em>Conference</em>. <a href="#">Slides</a></div>
+          <p class="muted" style="margin-top:10px">Full list: see <a href="research.html">Research</a>.</p>
         </div>
       </div>
     </section>
 
-    <!-- TEACHING -->
-    <section id="teaching">
-      <h2>Teaching</h2>
-      <p class="muted">Brief statement of teaching interests, philosophy, and courses taught.</p>
-      <div class="card">
-        <table>
-          <thead>
-            <tr><th>Year/Term</th><th>Course</th><th>Institution</th><th>Role</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>2024–2025</td><td>Course Title 101</td><td>University / Dept.</td><td>Instructor of Record</td></tr>
-            <tr><td>2023</td><td>Course Title 202</td><td>University / Dept.</td><td>Teaching Assistant</td></tr>
-          </tbody>
-        </table>
+    <!-- QUICK NAV CARDS -->
+    <section aria-labelledby="quicknav">
+      <h2 id="quicknav">Explore</h2>
+      <div class="grid-two">
+        <a class="card" href="research.html" style="text-decoration:none">
+          <h3>Research</h3>
+          <p class="muted">Interests, projects, publications, and working papers.</p>
+        </a>
+        <a class="card" href="teaching.html" style="text-decoration:none">
+          <h3>Teaching</h3>
+          <p class="muted">Courses taught, syllabi, and selected evaluations.</p>
+        </a>
       </div>
-      <p class="muted">Optional: link syllabi or teaching materials (PDFs) and summary evaluations.</p>
     </section>
 
-    <!-- PUBLICATIONS -->
-    <section id="publications">
-      <h2>Working Papers</h2>
-      <div class="card">
-        <div class="year">2025</div>
-        <div class="pub">Sudareva, O. (2025). <strong>Paper Title</strong>. <em>Journal Name</em>. <a href="#">PDF</a> · <a href="#">DOI</a> · <a href="#">Code</a></div>
-        <div class="pub">Sudareva, O. & Coauthor (2025). <strong>Paper Title</strong>. <em>Conference</em>. <a href="#">Slides</a></div>
-        <div class="year">2024</div>
-        <div class="pub">Sudareva, O. (2024). <strong>Working Paper Title</strong>. <em>Working paper</em>. <a href="#">Draft</a></div>
-      </div>
-      <p class="muted">Tip: group by year; add preprints, datasets, and code links. If using Google Scholar or ORCID, you can keep an abbreviated list here and link out.</p>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact">
-      <h2>Contact</h2>
+    <!-- CONTACT / LINKS -->
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
       <div class="grid-two">
         <div class="card">
           <h3>Email</h3>
           <p><a href="mailto:olga.sudareva@example.org">olga.sudareva@example.org</a></p>
-          <h3>Office / Affiliation</h3>
-          <p>Department of X, University of Y<br/>Address line 1<br/>City, Country</p>
+          <h3>Affiliation</h3>
+          <p>Department of X, University of Y<br>Address line 1<br>City, Country</p>
         </div>
         <div class="card">
           <h3>Links</h3>
           <ul>
-            <li><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a></li>
-            <li><a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a></li>
-            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a target="_blank" rel="noopener" href="https://scholar.google.com/">Google Scholar</a></li>
+            <li><a target="_blank" rel="noopener" href="https://orcid.org/">ORCID</a></li>
+            <li><a target="_blank" rel="noopener" href="https://github.com/">GitHub</a></li>
+            <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/">LinkedIn</a></li>
           </ul>
         </div>
       </div>
@@ -204,10 +176,11 @@
   </main>
 
   <script>
-    // small niceties
+    // auto year + last modified stamp
     document.getElementById('y').textContent = new Date().getFullYear();
     const d = new Date(document.lastModified);
     document.getElementById('updated').textContent = d.toLocaleDateString(undefined,{year:'numeric',month:'short'});
   </script>
+  <!-- Optional: analytics snippet could go here later -->
 </body>
 </html>
