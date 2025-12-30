@@ -28,7 +28,8 @@ jobs:
           bundler-cache: true   # 👈 installs gems automatically
 
       - name: Install dependencies
-        run: bundle install
+        run: bundle install --jobs 4 --retry 3 --verbose
+
 
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
