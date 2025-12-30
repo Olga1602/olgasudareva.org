@@ -339,6 +339,12 @@ external_links:
   target: _blank
   exclude:
 
+navbar_pages:
+  - research.md
+  - teaching.md
+  - cv.md
+
+
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
