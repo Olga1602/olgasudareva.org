@@ -2,10 +2,10 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-academia_edu: https://profiles.auckland.ac.nz/olga-sudareva
+
 cv_pdf: /assets/pdf/Olga_Sudareva_CV.pdf # path to your CV PDF file
 email: olga.sudareva@auckland.ac.nz # your email address
-linkedin: https://www.linkedin.com/in/olgasudareva/
+linkedin_profile: https://www.linkedin.com/in/olgasudareva/
 orcid_id: https://orcid.org/0000-0002-8398-2083
 
 rss_icon: true # comment this line to hide the RSS icon
