@@ -31,37 +31,11 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
       </div>
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
 
-    /* Make the profile info under the photo match the site font */
-    .more-info, .more-info p {
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
-      font-size: 0.95rem;
-      font-weight: 400;
-      color: var(--global-text-color, #0f172a);
-      }
-
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
