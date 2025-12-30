@@ -33,5 +33,4 @@ I am an economist whose research lies at the intersection of macroeconomics and 
 My recent research also explores how advances in artificial intelligence and large language models can enhance economic analysis and policy evaluation.
 
 **CV:** [Download PDF](/assets/pdf/Olga_Sudareva_CV.pdf)  
-**Research statement:** [Download PDF](/assets/pdf/Research_Statement_Olga_Sudareva.pdf)  
-**Teaching portfolio:** [Download PDF](/assets/pdf/Teaching_Portfolio_Olga_Sudareva.pdf)
+
