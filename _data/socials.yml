@@ -1,14 +1,9 @@
-# this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
-# the socials will be displayed in the order they are defined here
+# Social / contact links (shown as icons)
 
+cv_pdf: /assets/pdf/Olga_Sudareva_CV.pdf
 
-cv_pdf: /assets/pdf/Olga_Sudareva_CV.pdf # path to your CV PDF file
-email: olga.sudareva@auckland.ac.nz # your email address
-linkedin_profile: https://www.linkedin.com/in/olgasudareva/
-orcid_id: https://orcid.org/0000-0002-8398-2083
+email: olga.sudareva@auckland.ac.nz
 
-#rss_icon: true # comment this line to hide the RSS icon
-#scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+linkedin_username: olgasudareva
 
-
+orcid_id: 0000-0002-8398-2083
