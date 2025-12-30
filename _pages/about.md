@@ -28,9 +28,9 @@ latest_posts:
   limit: 3
 ---
 
-I am an economist at the University of Auckland. My research examines how structural and institutional factors—such as crime, safety perceptions, migration, and policy institutions—shape economic behaviour and long-run outcomes. My work sits at the intersection of macroeconomics and labour economics, combining micro evidence with theory to study inequality, human capital transmission, and labour-market dynamics.
+I am an economist whose research lies at the intersection of macroeconomics and labour economics. I study how social norms, institutional environments, and technological change shape economic development and inequality. My work combines empirical analysis with theory to examine labour supply decisions, gender disparities, and long-run economic outcomes.
 
-Alongside this agenda, I am developing research that uses new technologies—particularly large language models and related tools—to support economic analysis and policy communication, including the interpretation of monetary policy signals and the construction of counterfactual narratives from public communication.
+My recent research also explores how advances in artificial intelligence and large language models can enhance economic analysis and policy evaluation.
 
 **CV:** [Download PDF](/assets/pdf/Olga_Sudareva_CV.pdf)  
 **Research statement:** [Download PDF](/assets/pdf/Research_Statement_Olga_Sudareva.pdf)  
