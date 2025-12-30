@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Professional Teaching Fellow, Department of Economics, University of Auckland (New Zealand)
+subtitle: Professional Teaching Fellow
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Department of Economics</p>
     <p>University of Auckland</p>
-    <p>Auckland, New Zealand</p>
+    <p>New Zealand</p>
     <p><a href="mailto:olga.sudareva@auckland.ac.nz">olga.sudareva@auckland.ac.nz</a></p>
 
 selected_papers: false
