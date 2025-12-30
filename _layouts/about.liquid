@@ -39,6 +39,14 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    /* Make the profile info under the photo match the site font */
+    .more-info, .more-info p {
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+      font-size: 0.95rem;
+      font-weight: 400;
+      color: var(--global-text-color, #0f172a);
+      }
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
