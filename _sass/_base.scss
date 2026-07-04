@@ -412,26 +412,34 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
+  margin-top: 1.5rem;
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.25rem;
 
     a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.6rem;
+      height: 2.6rem;
+      margin: 0 0.25rem;
+
       img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 0;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 0;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2rem;
+          height: 2rem;
         }
       }
 
@@ -451,7 +459,28 @@ ul.task-list input[type="checkbox"] {
   }
 
   .contact-note {
+    margin-top: 0.4rem;
     font-size: 0.8rem;
+  }
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 0;
+}
+
+.home-link {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    text-decoration: none;
   }
 }
 
