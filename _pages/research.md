@@ -37,7 +37,7 @@ My research lies at the intersection of macroeconomics, labour economics, and de
 
 **Summary:** This paper studies migrant assimilation during the age of mass migration. Combining theory and historical evidence, the project examines how cultural distance, origin-country conditions, and institutional environments shaped assimilation outcomes.
 
-**Materials:** Draft available upon request.
+**Materials:** [Download PDF](/assets/pdf/Migration_and_Cultural_Assimilation.pdf)
 
 #### Shipping Lanes and Inflation-at-Risk: Hub Shocks, Belief Coordination, and Optimal Monetary Policy
 
