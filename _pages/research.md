@@ -39,6 +39,16 @@ My research lies at the intersection of macroeconomics, labour economics, and de
 
 **Materials:** Draft available upon request.
 
+#### Shipping Lanes and Inflation-at-Risk: Hub Shocks, Belief Coordination, and Optimal Monetary Policy
+
+**With:** Prasanna Gai and Andrew G. Haldane
+
+**Status:** Working paper
+
+**Summary:** This paper embeds a hub-chain production network in a two-period New Keynesian model with dispersed beliefs to study how global hub disruptions affect inflation-at-risk. It shows that network structures can amplify the right tail of inflation outcomes by coordinating firms' beliefs about shock persistence, with implications for monetary policy and structural resilience.
+
+**Materials:** [Download PDF](/assets/pdf/Shipping_Lanes_and_Inflation_at_Risk.pdf)
+
 ### Work in Progress
 
 #### What they could have said: counterfactual press conference response by the Federal Reserve Chairs through the lens of LLM
@@ -65,4 +75,5 @@ My research lies at the intersection of macroeconomics, labour economics, and de
 - Gender inequality and women's work
 - Social norms, stigma, and economic development
 - Migration and cultural assimilation
+- Supply-chain networks, inflation-at-risk, and monetary policy
 - AI and large language models in economic analysis
