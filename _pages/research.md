@@ -5,49 +5,64 @@ permalink: /research/
 nav: true
 ---
 
-My research lies at the intersection of macroeconomics, labour economics, and development economics. I study how social norms, institutions, safety, migration, and technological change shape labour-market behaviour, gender inequality, human capital, and long-run economic outcomes.
+My research lies at the intersection of macroeconomics, labour economics, and development economics. I study how institutions, social norms, safety, migration, and technology shape labour-market behaviour, gender inequality, human capital, and long-run economic outcomes.
 
 ### Working Papers
 
-#### Assessing the Impact of Crime on Gender Disparities in Labour Market Outcomes
+#### Assessing the impact of crime on gender disparities in labour market outcomes
 
 **With:** Sholeh Maani
 
+**Status:** Under review at *Journal of Population Economics*
+
+**Summary:** This paper examines how crime and safety affect gender disparities in labour-market outcomes. The project studies whether unsafe environments and crime exposure shape women's and men's labour supply differently, with implications for gender inequality and economic development.
+
+**Materials:** [Access paper](https://uoa-my.sharepoint.com/:b:/g/personal/osud356_uoa_auckland_ac_nz/EeJdXw2TiiFJvBWH-I-cnXkB5vtaeGqiHq8HNiEVT2z8Mg?e=QbsP2M)
+
+#### The missing right-hand of U: how stigma works to deter women's work
+
+**With:** Debasis Bandyopadhyay
+
 **Status:** Working paper
 
-**Summary:** This paper studies how crime and safety perceptions shape gender disparities in labour-market outcomes. Combining cross-country survey evidence with macro-level crime measures, the project examines whether unsafe environments and institutional conditions affect women's and men's labour supply differently.
+**Summary:** This paper studies how stigma and social norms can prevent the expected rebound in women's labour supply during economic development. It develops a macroeconomic framework to examine why rising education and structural transformation may be insufficient when gendered constraints remain binding.
 
-**Materials:** Available upon request.
+**Materials:** Draft available upon request.
 
-#### Migration, Assimilation, and Nation-Building
+#### Migration and cultural assimilation: theory and evidence from the age of mass migration
 
-**With:** Prasanna Gai and Joshua Greenwood
+**With:** Chanelle Duley, Prasanna Gai, and Joshua Greenwood
 
 **Status:** Working paper
 
-**Summary:** This project examines migrant assimilation and nation-building using historical census data. It studies how cultural distance, economic conditions in origin countries, and compulsory schooling laws shaped occupational, language, and citizenship outcomes among migrants in the United States.
+**Summary:** This paper studies migrant assimilation during the age of mass migration. Combining theory and historical evidence, the project examines how cultural distance, origin-country conditions, and institutional environments shaped assimilation outcomes.
 
-**Materials:** Available upon request.
+**Materials:** Draft available upon request.
 
-#### Social Stigma, Workplace Hostility, and the U-Shaped Path of Female Labour Supply
+### Work in Progress
 
-**Status:** Work in progress
+#### What they could have said: counterfactual press conference response by the Federal Reserve Chairs through the lens of LLM
 
-**Summary:** This project develops a dynamic macroeconomic framework in which social stigma and workplace hostility affect women's labour supply over the process of development. The model asks why structural transformation and rising education may be insufficient to generate a rebound in female labour-force participation when gendered constraints remain binding.
+**With:** Eric Tong
+
+**Summary:** This project uses large language models to study counterfactual communication in Federal Reserve press conferences. It asks how alternative responses by Federal Reserve Chairs might have changed the informational content, tone, and policy interpretation of press-conference exchanges.
 
 **Materials:** Draft in preparation.
 
-#### Global Supply Shocks, Synchronisation, and Inflation Tail Risks
+### Teaching and Learning Publication
 
-**Status:** Work in progress
+#### Reflect - revise - reveal: a learning-journal journey in experiential education
 
-**Summary:** This project studies how global hub disruptions transmit into inflation, with particular attention to upper-tail inflation risks and the amplification role of synchronised global price movements. The empirical design links common shocks to country-level exposure through global input-output networks.
+**With:** David Ratliff
 
-**Materials:** Draft in preparation.
+**Status:** In ASCILITE Conference Proceedings
 
-### Interests
+**Materials:** [Access paper](https://open-publishing.org/publications/index.php/APUB/article/view/2681/2474)
+
+### Research Interests
+
 - Crime, safety perceptions, and labour supply
-- Gender and household labour allocation
-- Migration, cultural assimilation, and long-run outcomes
-- Financial stability, resilience, and macroeconomic policy
-- AI tools for economic analysis, teaching, and policy communication
+- Gender inequality and women's work
+- Social norms, stigma, and economic development
+- Migration and cultural assimilation
+- AI and large language models in economic analysis
