@@ -16,10 +16,3 @@ I teach economics at the University of Auckland, with experience across introduc
 | ECON 152: Principles of Economics | University of Auckland | S1 2024; Summer School 2025; Summer School 2026; Summer School 2027 |
 | ECON 151 / 151G: Understanding the Global Economy | University of Auckland | S2 2023; Summer School 2023 |
 | [ECON 311: Advanced Macroeconomics](https://study.auckland.ac.nz/ords/r/uoa/catalogue/course?p6_code=Econ%20311) | University of Auckland | S2 2026; S1 2027 |
-
-### Teaching and Learning Interests
-
-- AI-supported learning and assessment design
-- Flipped and blended learning in large economics courses
-- Digital assessment, feedback, and learning analytics
-- Graduate teaching assistant and tutor development
