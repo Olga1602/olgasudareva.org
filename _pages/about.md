@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Professional Teaching Fellow
+subtitle: Lecturer in Economics
 
 profile:
   align: right
@@ -28,9 +28,8 @@ latest_posts:
   limit: 3
 ---
 
-I am an economist whose research lies at the intersection of macroeconomics and labour economics. I study how social norms, institutional environments, and technological change shape economic development and inequality. My work combines empirical analysis with theory to examine labour supply decisions, gender disparities, and long-run economic outcomes.
+I am a Lecturer in Economics at the University of Auckland. My research lies at the intersection of macroeconomics, labour economics, and development economics, with a focus on how social norms, institutions, safety, and technological change shape labour-market outcomes and long-run economic development.
 
-My recent research also explores how advances in artificial intelligence and large language models can enhance economic analysis and policy evaluation.
+My work combines empirical analysis with macroeconomic theory to examine gender disparities, migration and assimilation, human capital, and financial and macroeconomic resilience. I am also interested in how artificial intelligence and large language models can support economic research, teaching, and policy evaluation.
 
 **CV:** [Download PDF](/assets/pdf/Olga_Sudareva_CV.pdf)  
-
