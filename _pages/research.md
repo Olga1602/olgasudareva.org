@@ -17,7 +17,7 @@ My research lies at the intersection of macroeconomics, labour economics, and de
 
 **Summary:** This paper examines how crime and safety affect gender disparities in labour-market outcomes. The project studies whether unsafe environments and crime exposure shape women's and men's labour supply differently, with implications for gender inequality and economic development.
 
-**Materials:** [Access paper](https://uoa-my.sharepoint.com/:b:/g/personal/osud356_uoa_auckland_ac_nz/EeJdXw2TiiFJvBWH-I-cnXkB5vtaeGqiHq8HNiEVT2z8Mg?e=QbsP2M)
+**Materials:** Draft available upon request.
 
 #### The missing right-hand of U: how stigma works to deter women's work
 
@@ -37,7 +37,7 @@ My research lies at the intersection of macroeconomics, labour economics, and de
 
 **Summary:** This paper studies migrant assimilation during the age of mass migration. Combining theory and historical evidence, the project examines how cultural distance, origin-country conditions, and institutional environments shaped assimilation outcomes.
 
-**Materials:** [Download PDF](/assets/pdf/Migration_and_Cultural_Assimilation.pdf)
+**Materials:** Draft available upon request.
 
 #### Shipping Lanes and Inflation-at-Risk: Hub Shocks, Belief Coordination, and Optimal Monetary Policy
 
@@ -47,7 +47,7 @@ My research lies at the intersection of macroeconomics, labour economics, and de
 
 **Summary:** This paper embeds a hub-chain production network in a two-period New Keynesian model with dispersed beliefs to study how global hub disruptions affect inflation-at-risk. It shows that network structures can amplify the right tail of inflation outcomes by coordinating firms' beliefs about shock persistence, with implications for monetary policy and structural resilience.
 
-**Materials:** [Download PDF](/assets/pdf/Shipping_Lanes_and_Inflation_at_Risk.pdf)
+**Materials:** Draft available upon request.
 
 ### Work in Progress
 
@@ -57,7 +57,7 @@ My research lies at the intersection of macroeconomics, labour economics, and de
 
 **Summary:** This project uses large language models to study counterfactual communication in Federal Reserve press conferences. It asks how alternative responses by Federal Reserve Chairs might have changed the informational content, tone, and policy interpretation of press-conference exchanges.
 
-**Materials:** Draft in preparation.
+**Materials:** Draft available upon request.
 
 ### Teaching and Learning Publication
 
@@ -67,7 +67,7 @@ My research lies at the intersection of macroeconomics, labour economics, and de
 
 **Status:** In ASCILITE Conference Proceedings
 
-**Materials:** [Access paper](https://open-publishing.org/publications/index.php/APUB/article/view/2681/2474)
+**Materials:** Draft available upon request.
 
 ### Research Interests
 
